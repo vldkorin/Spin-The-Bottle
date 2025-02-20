@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+    margin: 20px;
+}
+
+h1 {
+    color: #343a40;
+}
+
+#player-form {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #0056b3;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#add-player {
+    background-color: #28a745;
+    color: white;
+}
+
+#add-player:hover {
+    background-color: #218838;
+}
+
+#spin {
+    background-color: #007bff;
+    color: white;
+    margin-top: 10px;
+}
+
+#spin:hover {
+    background-color: #0056b3;
+}
+
+#reset {
+    background-color: #dc3545;
+    color: white;
+}
+
+#reset:hover {
+    background-color: #c82333;
+}
+
+#players {
+    list-style: none;
+    padding: 0;
+}
+
+#players li {
+    background: #ffffff;
+    padding: 10px;
+    margin: 5px auto;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#players li button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#players li button:hover {
+    background-color: #cc0000;
+}
+
+#status {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
